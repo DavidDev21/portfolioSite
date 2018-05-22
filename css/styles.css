@@ -53,10 +53,15 @@ header, footer
 header h1, header h2
 {
 	color: #EDF2F4;
+	margin: 0;
 }
 footer
 {
 	text-align: center;
+}
+.profile
+{
+	border-radius: 50%;
 }
 
 /* spacing for contact info links */
