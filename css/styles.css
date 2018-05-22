@@ -1,4 +1,84 @@
+/*
+	Color palette
+	#2B2D42 = dark blue
+	#8D99AE = light blue
+	#EDF2F4 = blue white ish
+	#EF233C = red
+*/
+
+/* Global styles */
 body
 {
-	background:;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+a
+{
+	color: #EF233C;
+}
+a:hover
+{
+	color: white;
+}
+h1, h2 
+{
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 
+{
+  font-size: 80px;
+}
+h2 
+{
+  font-size: 40px;
+  margin-top: 0;
+}
+
+/*wrapper class to align content */
+.content-wrapper
+{
+	width: 70%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+
+/* Header and Footer */
+header, footer
+{
+  	background: #2B2D42;
+  	color: #8D99AE;
+}
+header h1, header h2
+{
+	color: #EDF2F4;
+}
+footer
+{
+	text-align: center;
+}
+
+/* spacing for contact info links */
+.contact-info a
+{
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+}
+/* Work Experience */
+.work-experience
+{
+	background: #EDF2F4;
+}
+
+/* Education */
+.education
+{
+	background: #8D99AE;
+}
+/* Project */
+.projects
+{
+	background: #EF233C;
 }
