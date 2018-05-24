@@ -7,6 +7,7 @@
 */
 
 /* border box fix */
+/* changes the sizing calculations to include the padding and border sizing into the element's overall size
 	ex: 
 		width: 300px, padding: 20px, border: 10px,
 		then it's content: 270px + padding + border = width;
