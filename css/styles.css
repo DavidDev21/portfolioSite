@@ -4,6 +4,7 @@
 	#8D99AE = light blue
 	#EDF2F4 = blue white ish
 	#EF233C = red
+	#D2E9BA = Light greenish
 */
 
 /* border box fix */
@@ -47,6 +48,7 @@ h2
 {
   font-size: 40px;
   margin-top: 0;
+  margin-bottom: 10px;
 }
 
 /*wrapper class to align content */
@@ -124,7 +126,7 @@ footer
 /* Project */
 .projects
 {
-	background: #EF233C;
+	background: #D2E9BA;
 }
 .project-images
 {
