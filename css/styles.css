@@ -50,13 +50,38 @@ h2
   margin-top: 0;
   margin-bottom: 10px;
 }
+h3
+{
+	margin: 0;
+}
 
+p + h3
+{
+	margin-top: 30px;
+}
+
+.btn
+{
+	background: #EF233C;
+	text-decoration: none;
+	display:inline-block;
+	padding: 10px;
+	color: white;
+}
+
+/* the parent has position relative to prevent element from moving outside of container */
+.download
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
 /*wrapper class to align content */
 .content-wrapper
 {
 	width: 70%;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 60px 50px;
 	overflow: hidden; /*Needed cause of floated elements within the child tags*/
 }
 /* col-left = the contents on the left of the site
@@ -68,7 +93,6 @@ h2
 	width:35%;
 	float:left;
 	padding-right:2%;
-	min-height: 175px;
 
 }
 
@@ -76,13 +100,30 @@ h2
 {
 	width:65%;
 	float:left;
-	min-height: 175px;
 	padding-left: 3%;
 	border-left:1px solid;
+	margin-bottom:25px;
+}
+
+/* applies to first p tag under the col-right class*/
+.col-right p:first-of-type
+{
+	margin-top: 0;
+}
+
+.uppercase
+{
+	text-transform: uppercase;
 }
 header .col-right
 {
 	border: none;
+	margin:0;
+}
+header
+{
+	padding-top:30px;
+	position: relative;
 }
 
 /* Header and Footer */
@@ -100,6 +141,27 @@ footer
 {
 	text-align: center;
 }
+
+/* Navigation Bar */
+nav
+{
+	text-align: center;
+	background: #2B2D42;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+
+nav a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+
 .profile
 {
 	border-radius: 50%;
@@ -118,15 +180,20 @@ footer
 	background: #EDF2F4;
 }
 
+/* a general sibling selector, applies on any paragraph siblings of an h3 tag*/
+h3 ~ p
+{
+	margin: 0;
+}
 /* Education */
 .education
 {
-	background: #8D99AE;
+	background: #D2E9BA;
 }
 /* Project */
 .projects
 {
-	background: #D2E9BA;
+	background: #8D99AE;
 }
 .project-images
 {
