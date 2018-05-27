@@ -34,6 +34,7 @@ a
 a:hover
 {
 	color: white;
+	cursor: pointer;
 }
 h1, h2 
 {
@@ -198,4 +199,11 @@ h3 ~ p
 .project-images
 {
 	width: 300px;
+}
+
+/* Skills */
+.col-one, .col-two,.col-three
+{
+	float:left;
+	width:33.33%;
 }
