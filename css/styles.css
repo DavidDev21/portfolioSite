@@ -85,27 +85,6 @@ p + h3
 	padding: 60px 50px;
 	overflow: hidden; /*Needed cause of floated elements within the child tags*/
 }
-/* col-left = the contents on the left of the site
-   col-right = the contents on the right of the site
-   two column layout
- */
-.col-left
-{
-	width:35%;
-	float:left;
-	padding-right:2%;
-
-}
-
-.col-right
-{
-	width:65%;
-	float:left;
-	padding-left: 3%;
-	border-left:1px solid;
-	margin-bottom:25px;
-}
-
 /* applies to first p tag under the col-right class*/
 .col-right p:first-of-type
 {
@@ -201,9 +180,47 @@ h3 ~ p
 	width: 300px;
 }
 
-/* Skills */
-.col-one, .col-two,.col-three
+/* media quries */
+@media (min-width: 900px)
 {
-	float:left;
-	width:33.33%;
+	/* col-left = the contents on the left of the site
+	   col-right = the contents on the right of the site
+	   two column layout
+	 */
+	.col-left
+	{
+		width:35%;
+		float:left;
+		padding-right:2%;
+
+	}
+
+	.col-right
+	{
+		width:65%;
+		float:left;
+		padding-left: 3%;
+		border-left:1px solid;
+		margin-bottom:25px;
+	}
+
+		/* Skills */
+	.col-one, .col-two,.col-three
+	{
+		float:left;
+		width:33.33%;
+	}
+
+}
+
+@media (max-width: 899px)
+{
+	header
+	{
+		text-align: center;
+	}
+	.profile
+	{
+		width: 200px;
+	}
 }
