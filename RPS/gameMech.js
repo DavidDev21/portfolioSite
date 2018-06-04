@@ -56,7 +56,7 @@ function displayChoice(choice,displayElement)
     }
     else
     {
-        displayElement.setAttribute("src","Sisscor.png");
+        displayElement.setAttribute("src","sisscors.png");
     }
 }
 
