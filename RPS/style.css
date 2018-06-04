@@ -1,0 +1,53 @@
+.content-wrap
+{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header
+{
+    text-align: center;
+}
+
+.options
+{
+    width: 34%;
+    margin:auto;
+}
+
+button
+{
+    margin:auto;
+    text-align:center;
+    display:inline-block;
+}
+
+#player
+{
+    float:left;
+    text-align: center;
+}
+#computer
+{
+    float:right;
+    text-align: center;
+}
+
+img
+{
+    width: 250px;
+    height: 250px
+}
+
+#gameArea
+{
+    overflow:hidden;
+}
+
+#announcement
+{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}

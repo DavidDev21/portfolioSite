@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="style.css" rel="stylesheet">
+    <title>RPS</title>
+  </head>
+  <body>
+    <div class="content-wrap">
+        <header>
+            <h1>Welcome to RPS</h1>
+        </header>
+        
+        <main id="gameArea">
+            <div class="options">
+                <button id="rock" onclick="gameWinner(0)">Rock</button>
+                <button id="paper" onclick="gameWinner(1)">Paper</button>
+                <button id="sissicor" onclick="gameWinner(2)">Sissicor</button>
+                <button onclick="autoGame()">PC Vs PC</button>
+            </div>
+
+            <div id="player">
+                    <h3>Player</h3>
+                    <img src="paper.png">
+            </div>
+            <div id="computer">
+                <h3>Computer</h3>
+                <img src="rock.png">
+            </div>
+        </main>
+
+        <footer id="scoreboard">
+            <h3 id="announcement">Welcome to RPS</h3>
+            <h3 id="winCount">wins: 0</h3>
+            <h3 id="totalGames">total games: 0</h3>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="gameMech.js"></script>
+  </body>
+</html>
