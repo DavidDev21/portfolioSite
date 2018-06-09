@@ -1,0 +1,41 @@
+
+.background-filler
+{
+    background-color: skyblue;
+}
+
+.task-list-item
+{
+    background: black;
+    margin-bottom: 1rem;
+}
+
+.task-list-header
+{
+    border-bottom: solid black 2px;
+}
+
+.task-list
+{
+
+}
+
+#assigned
+{
+    background: lightcoral;
+}
+
+#in-progress
+{
+    background: cyan;
+}
+
+#blockers
+{
+    background:red;
+}
+
+#completion
+{
+    background: lightgreen;
+}
