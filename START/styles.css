@@ -6,7 +6,7 @@
 
 .task-list-item
 {
-    background: grey;
+    background: black;
     margin-bottom: 1rem;
 }
 
@@ -38,9 +38,4 @@
 #completion
 {
     background: lightgreen;
-}
-
-a.task-card
-{
-    display:block;
 }
