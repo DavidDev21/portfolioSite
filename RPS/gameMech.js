@@ -20,7 +20,7 @@ function gameWinner(playerChoice)
 {
     console.log("I been clicked");
     let computerChoice = AI();
-    let choiceArray = ["Rock", "Paper", "Scissors"];
+    let choiceArray = ["Rock", "Paper", "Sisscors"];
     let announcement = document.querySelector("#announcement");
     let winCount = document.querySelector("#winCount");
     let totalGames = document.querySelector("#totalGames");
@@ -56,7 +56,7 @@ function displayChoice(choice,displayElement)
     }
     else
     {
-        displayElement.setAttribute("src","scissors.png");
+        displayElement.setAttribute("src","sisscors.png");
     }
 }
 
